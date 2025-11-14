@@ -4,9 +4,7 @@ import os
 
 load_dotenv()  # загружает переменные из .env
 
-BASE_URL = "https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/auth/login"
+BASE_URL = "http://dezodemius.ru:7001/"
 
-EMAIL = os.getenv("EMAIL")
+LOGIN = os.getenv("LOGIN")
 PASSWORD = os.getenv("PASSWORD")
-
-ALERT_TEXT = "Wrong email or password"
